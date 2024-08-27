@@ -63,13 +63,13 @@ dev = [
 [tool.setuptools]
 license-files = ["LICENSE"]
 include-package-data = true
-packages = ["pyeilcd"]
+packages = ["pyilcd"]
 
 [tool.setuptools.dynamic]
-version = {attr = "pyeilcd.__version__"}
+version = {attr = "pyilcd.__version__"}
 
 [tool.pytest.ini_options]
-addopts = "--cov pyeilcd --cov-report term-missing --verbose"
+addopts = "--cov pyilcd --cov-report term-missing --verbose"
 norecursedirs = [
     "dist",
     "build",
