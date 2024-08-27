@@ -423,6 +423,18 @@ def validate_file_source_dataset(
     return validate_file(file, Defaults.SCHEMA_SOURCE_DATASET)
 
 
+def validate_file_model_dataset(
+    file: Union[str, Path, StringIO]
+) -> Union[None, List[str]]:
+    """Validates an ILCD Model Dataset XML file against schema.
+    Parameters:
+    file: the str|Path path to the ILCD Source Dataset XML file or its StringIO
+    representation.
+    Returns ``None`` if valid or a list of error strings.
+    """
+    return validate_file(file, Defaults.SCHEMA_MODEL_DATASET)
+
+
 def validate_directory_process_dataset(
     dir_path: Union[str, Path], valid_suffixes: Union[List[str], None] = None
 ) -> List[Tuple[Path, Union[None, List[str]]]]:
