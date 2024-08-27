@@ -3,7 +3,7 @@ requires = ["setuptools>=68.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pyilcd"
+name = "pyeilcd"
 authors = [
   { name="Mina Sami", email="sami.mg@outlook.com" }
 ]
@@ -63,13 +63,13 @@ dev = [
 [tool.setuptools]
 license-files = ["LICENSE"]
 include-package-data = true
-packages = ["pyilcd"]
+packages = ["pyeilcd"]
 
 [tool.setuptools.dynamic]
-version = {attr = "pyilcd.__version__"}
+version = {attr = "pyeilcd.__version__"}
 
 [tool.pytest.ini_options]
-addopts = "--cov pyilcd --cov-report term-missing --verbose"
+addopts = "--cov pyeilcd --cov-report term-missing --verbose"
 norecursedirs = [
     "dist",
     "build",

@@ -33,6 +33,7 @@ from .core import (
     validate_file_flow_property_dataset,
     validate_file_process_dataset,
     validate_file_source_dataset,
+    validate_file_model_dataset,
     validate_file_unit_group_dataset,
     validate_zip_file_contact_dataset,
     validate_zip_file_flow_dataset,
@@ -47,7 +48,7 @@ from .process_dataset import ProcessDataSet
 from .source_dataset import SourceDataSet
 from .unit_group_dataset import UnitGroupDataSet
 
-__version__ = "6.3.1"
+__version__ = "7.0.2"
 
 __all__ = (
     "__version__",
@@ -81,6 +82,7 @@ __all__ = (
     "validate_file_flow_property_dataset",
     "validate_file_process_dataset",
     "validate_file_source_dataset",
+    "validate_file_model_dataset",
     "validate_file_unit_group_dataset",
     "validate_directory_contact_dataset",
     "validate_directory_flow_dataset",
