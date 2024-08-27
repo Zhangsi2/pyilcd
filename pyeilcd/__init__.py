@@ -48,7 +48,7 @@ from .process_dataset import ProcessDataSet
 from .source_dataset import SourceDataSet
 from .unit_group_dataset import UnitGroupDataSet
 
-__version__ = "7.0.5"
+__version__ = "7.0.6"
 
 __all__ = (
     "__version__",
