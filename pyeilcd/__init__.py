@@ -11,7 +11,7 @@ from .core import (
     validate_file_unit_group_dataset,
 )
 
-__version__ = "7.0.8"
+__version__ = "7.0.9"
 
 __all__ = (
     "__version__",

@@ -5,10 +5,10 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pyeilcd"
 authors = [
-  { name="Mina Sami", email="sami.mg@outlook.com" }
+  { name="Nan LI"}
 ]
 maintainers = [
-  { name="Mina Sami", email="sami.mg@outlook.com" }
+  { name="Nan LI"}
 ]
 description = "A Python package that converts ILCD XML formats to their Python equivalents and export the same data back to XML."
 readme = "README.md"
@@ -34,9 +34,8 @@ dependencies = [
 ]
 
 [project.urls]
-source = "https://github.com/sami-m-g/pyilcd"
-homepage = "https://github.com/sami-m-g/pyilcd"
-tracker = "https://github.com/sami-m-g/pyilcd/issues"
+source = "hhttps://github.com/linancn/pyilcd"
+homepage = "https://github.com/linancn/pyilcd"
 
 [project.optional-dependencies]
 # Getting recursive dependencies to work is a pain, this

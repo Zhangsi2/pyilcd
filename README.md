@@ -5,7 +5,7 @@
 
 [pypi status]: https://pypi.org/project/pyeilcd/
 
-pyeilcd is a Python package that provides a simple interface to validate ILCD XML files against the ILCD schemas based on the [pyilcd](https://github.com/brightway-lca/pyilcd) library.
+pyeilcd is a Python package that provides a simple interface to validate extended-ILCD (eILCD) XML files against the ILCD schemas based on the [pyilcd](https://github.com/brightway-lca/pyilcd) library.
 
 ## Installation
 
