@@ -34,7 +34,7 @@ dependencies = [
 ]
 
 [project.urls]
-source = "hhttps://github.com/linancn/pyilcd"
+source = "https://github.com/linancn/pyilcd"
 homepage = "https://github.com/linancn/pyilcd"
 
 [project.optional-dependencies]
