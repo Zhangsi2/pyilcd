@@ -28,6 +28,16 @@ validate_file_contact_dataset("data/invalid/sample_contact_invalid.xml")  # Repl
 >> data/contact/sample_contact_invalid.xml:17:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://lca.jrc.it/ILCD/Common}class', attribute 'level': 'a' is not a valid value of the atomic type '{http://lca.jrc.it/ILCD/Common}LevelType'. data/contact/sample_contact_invalid.xml:17:0:ERROR:SCHEMASV:SCHEMAV_CVC_IDC: Element '{http://lca.jrc.it/ILCD/Common}class', attribute 'level': Warning: No precomputed value available, the value was either invalid or something strange happened.
 ```
 
+## Publish
+```bash
+#list existing tags
+git tag
+#creat a new tag
+git tag v7.0.12
+#push this tag to origin
+git push origin v7.0.12
+
+```
 
 ## License
 
