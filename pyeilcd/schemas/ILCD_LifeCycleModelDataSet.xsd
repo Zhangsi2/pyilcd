@@ -663,6 +663,16 @@
             <xs:documentation>UUID of the connected flow exchange in the input of the downstream process instance.</xs:documentation>
          </xs:annotation>
       </xs:attribute>
+      <xs:attribute name="version" use="required">
+         <xs:annotation>
+            <xs:appinfo>
+               <ilcd:element id="7-d1e507" name="version"/>
+               <ilcd:display-name>version of exchange</ilcd:display-name>
+               <ilcd:field-requirement>m</ilcd:field-requirement>
+            </xs:appinfo>
+            <xs:documentation>version of the connected flow exchange in the input of the downstream process instance.</xs:documentation>
+         </xs:annotation>
+      </xs:attribute>
       <xs:anyAttribute namespace="##other" processContents="lax"/>
    </xs:complexType>
    <xs:complexType name="DownstreamProcessType">
@@ -694,6 +704,16 @@
                <ilcd:field-requirement>o</ilcd:field-requirement>
             </xs:appinfo>
             <xs:documentation>Location, e.g. country code, of the connected flow exchange in downstream process, if any.</xs:documentation>
+         </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="version" use="required">
+         <xs:annotation>
+            <xs:appinfo>
+               <ilcd:element id="7-d1e513" name="version"/>
+               <ilcd:display-name>version of exchange</ilcd:display-name>
+               <ilcd:field-requirement>m</ilcd:field-requirement>
+            </xs:appinfo>
+            <xs:documentation>version of the connected flow exchange in the output of the downstream process instance.</xs:documentation>
          </xs:annotation>
       </xs:attribute>
       <xs:attributeGroup ref="dominantGroup"/>
