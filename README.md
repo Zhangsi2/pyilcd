@@ -5,7 +5,7 @@
 
 [pypi status]: https://pypi.org/project/pyeilcd/
 
-[English](https://github.com/linancn/pyilcd/blob/main/README.md) | [中文](https://github.com/tiangong-lca/tidas-tools/blob/main/README_CN.md)
+[English](https://github.com/linancn/pyilcd/blob/main/README.md) | [中文](https://github.com/linancn/pyilcd/blob/main/README_CN.md)
 
 **Note:** This package supports Python versions 3.8 to 3.12 only.
 
